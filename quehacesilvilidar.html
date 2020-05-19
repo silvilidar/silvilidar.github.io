@@ -9,12 +9,17 @@
 
 <body>
 <h1>SILVILIDAR </h1>
-<ul>
-    <li>
-  <a href="http://silvilidar.github.io/quehacesilvilidar.html">¿Qué hace SILVILIDAR? </a></li><li>
-  <a href="http://silvilidar.github.io/comoseinstala.html">¿Cómo se instala?</a></li><li>
-  <a href="http://silvilidar.github.io/comofunciona.html">¿Cómo funciona?</a></li><li>
-  <a href="http://silvilidar.github.io/basescientificotecnicas.html">¿Cuales son las bases cientifico técnicas?</a></li>
+<p>Silvilidar permite procesar archivos LiDAR, LAZ o LAS, para caracterizar las masas forestales, siendo posible evaluar el estado de desarrollo y el momento adecuado para actuar selvícolamente.</p>
+
+<p>Requiere del Software FUSION desarrollado por US Department of Agriculture, Forest Service, Pacific Northwest Research Station. Puede descargarse desde http://forsys.sefs.uw.edu/FUSION/fusion_overview.html Para trabajar con archivos LAZ requiere LAStools que puede ser descargado desde http://rapidlasso.com/lastools/ y posteriormente copiar el archivo LASzip.dll en la carpeta de instalación de FUSION.</p>
+
+<p>SilviLiDAR procesa archivos LiDAR en formato LAZ o LAS como los que pueden descargarse de la web del CNIG http://centrodedescargas.cnig.es/CentroDescargas/buscadorCatalogo.do</p>
+
+<p>Podemos descargar los archivos que necesitemos haciendo una búsqueda por término municipal y guardarlos en una carpeta en el equipo cuya ruta no debe contener espacios en blanco.</p>
+
+<p>Una vez instalado , clicamos dos veces en SilviLiDAR y se nos abrirá una ventana. En ella es imprescindible seleccionar la carpeta en la que se encuentran los archivos LAZ o LAS que queremos procesar. El resto de campos vienen rellenados por defecto con valores estándar. Clicamos en Run y se ejecutará el script.</p>
+
+<p>Lo que sucede a continuación es el análisis de los archivos LiDAR mediante el programa FUSION y posteriormente el análisis de cada celda con los parámetros introducidos El resultado, que suele tardar unos 2 minutos por cuadricula de 2x2 km, es el siguiente: · Un shape de polígonos llamado Teselas con los estratos y los posibles tratamientos. · Otro shape de polígonos llamado claras en el que se ha simplificado el resultado para que pueda emplearse de un modo más cómodo esta información aglutinando las zonas que en las que da clara y tienen una superficie mínima de actuación. · Otro shape de polígonos llamado resalveo obtenido del mismo modo que el anterior · Y otro shape de polígonos llamado regeneración donde puede que exista necesidad de cortas de regeneración. Además se generan en la carpeta de trabajo todos los archivos.</p>
 </body>
 </html>
  
